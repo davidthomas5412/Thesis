@@ -20,6 +20,12 @@
 \usepackage{longtable}  % tables spanning multiple pages
 \usepackage{hyperref}  % URLs
 \usepackage[autostyle, english = american]{csquotes}  % quote orientation
+\usepackage{epigraph}
+\usepackage[ruled]{algorithm2e}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\renewcommand{\epigraphsize}{\normalsize}
+\setlength{\epigraphwidth}{0.9\textwidth}
 \MakeOuterQuote{"}
 
 % use png first, otherwise pdf
@@ -27,25 +33,34 @@
 \DeclareGraphicsExtensions{.png,.pdf}
 
 \begin{document}
-\title{Machine Learning Based Wavefront Sensing\\
-            and Subsecond Star Trail Photometry}
+\title{Machine Learning Based Wavefront Sensing}
 \author{David Thomas}
 \dept{Computational and Mathematical Engineering}
 \principaladviser{Professor Steven Kahn}
 \firstreader{Professor Patricia Burchat}
 \secondreader{Professor Stephen Boyd}
- 
+
 % no signature or copyright pages in online submission
 % (they are added by the library)
 
 % including chapters, no .tex extension necessary
 \beforepreface
+\afterpreface
 \include{preface_abstract}
 \include{preface_acknowledgements}
-\afterpreface
-\include{ch_intro}
-\include{ch_paper1}
-\include{ch_conclusion}
+% \include{ch_intro}
+\part{Machine Learning Based Wavefront Sensing}
+\include{chapters/new_paradigm/new_paradigm}
+\include{chapters/rubin_telescope_and_aos/rubin}
+\include{chapters/simulating_donuts/sim}
+\include{chapters/training_cnn/cnn}
+\include{chapters/interpolating_wavefront/ch_paper1}
+\include{chapters/error_model_and_telescope_control/ch_paper1}
+\include{chapters/conclusion/ch_paper1}
+% \part{Star Trail Photometry}
+% \part{Quantum Metric Learning}
+
+% \include{ch_conclusion}
 
 % uncomment below if you have an appendix
 % \appendix
