@@ -1,0 +1,6 @@
+PWD /Users/user/Documents/Professional/Thesis/stanford-thesis-example/chapters/control
+INPUT /usr/local/texlive/2016/texmf.cnf
+INPUT /usr/local/texlive/2016/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2016/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT /Users/user/Documents/Professional/Thesis/stanford-thesis-example/chapters/control/control.tex
+OUTPUT /Users/user/Documents/Professional/Thesis/stanford-thesis-example/chapters/control/control.log
