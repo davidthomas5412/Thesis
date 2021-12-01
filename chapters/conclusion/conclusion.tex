@@ -1,8 +1,31 @@
 % Full title as you would like it to appear on the page
-\chapter{Conclusion}
+\chapter{Conclusions}
 \label{chap:conclusion}
 % Short title that appears in the header of pages within the chapter
-\chaptermark{Short chapter title}
+\chaptermark{Conclusions}
+\epigraph{Don't be afraid to give up the good to go for the great.}{John D. Rockefeller}
 
-\section{Conclusions}
-The end of the paper.
+In this dissertation, we gave readers a comprehensive tour of our new two step wavefront sensing framework. 
+
+In Chapter \ref{chap:new_paradigm}, we provided an overview of our framework. We started by describing the limitations of existing methods. Then we described the key conceptual breakthrough in our framework, that wavefront sensing can be decomposed into two sub-problems. The first sub-problem is to use a neural network to predict the local wavefront. The second sub-problem is to interpolate the global wavefront, represented by double Zernike polynomials, from the local wavefront estimates. We also demonstrated how 90\% of the aberration power is concentrated in the lowest three field Zernike polynomials, which makes the interpolation feasible. 
+
+In Chapter \ref{chap:aos}, we covered the Rubin Observatory and its active optics system. We described the components of the telescope and the reduced 50 degrees of freedom that the active optics system strives to control.
+
+Given that the Rubin Observatory is currently under construction, this work critically depends on high fidelity simulations. In Chapter \ref{chap:sim}, we described all the relevant physical effects and how they are modelled in our simulations. We also introduced the donut dataset and full visit dataset. We hope that these datasets can continue to serve as a research resource and benchmark for comparison moving forward. 
+
+In Chapter \ref{chap:cnn}, we described how we trained a convolutional neural network to predict the local wavefront. After stepping through the architecture in detail, we explain the training process and assess the network's performance. We also characterized different potential sources of error. Ultimately our model made state of the art wavefront predictions. We believe this task, and our approach using a neural network to solve it, can serve a valuable component in many other wavefront sensing and optics algorithms.
+
+In Chapter \ref{chap:interp}, we described how least squares is used to interpolate the global wavefront. We explored many select-reduce-fit combinations and found that using only the brightest stars, without reducing within a wavefront sensor, with an $l_2$ fit gave the best results. Our algorithm improved the wavefront in all 497 observations in the full visit dataset. It also reduced the total magnitude of the optics global wavefront by 66\%, the optics PSF FWHM by 27\%, and increased the Strehl ratio by a factor of 6. The illustrative Hubble images provide a sense of how much impact this image quality improvement can have on the downstream science applications. 
+
+In Chapter \ref{chap:err}, we described our telescope control simulator. We evaluated the performance of three classic optimal control strategies with varying degrees of sophistication. This framework we have built on top of our wavefront sensing algorithm enables research on telescope control strategies to begin now, and potentially save time on the mountain during the commissioning of the Rubin Observatory. 
+
+Finally, in addition to achieving incredible performance, it is worth stressing that our algorithm has many practical advantages.
+
+\begin{itemize}
+\item \textbf{Transparency:} 2 steps.
+\item \textbf{Robustness:} 2x noise leads to 11\% performance degradation.
+\item \textbf{Low Latency:} 5 milliseconds per donut.
+\item \textbf{High Bandwidth:} 7,800 donuts in 39 seconds.
+\end{itemize}
+
+\noindent There is no existing alternative that achieves this combination of properties. Our two step wavefront sensing algorithm has the potential to improve image quality on multiple current and upcoming wide-field telescopes. We hope physicists continue to be receptive to interdisciplinary collaborations with those from applied mathematics and machine learning backgrounds. Leveraging these techniques has the potential to continue advancing many experiments and investigations in physics and cosmology. 

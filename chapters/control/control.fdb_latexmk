@@ -1,12 +1,14 @@
 # Fdb version 3
-["pdflatex"] 1638240105 "/Users/user/Documents/Professional/Thesis/stanford-thesis-example/chapters/control/control.tex" "/Users/user/Documents/Professional/Thesis/stanford-thesis-example/chapters/control/control.pdf" "control" 1638240105
-  "/Users/user/Documents/Professional/Thesis/stanford-thesis-example/chapters/control/control.aux" 1638225789 1203 732017292b9a55997ac45b80fe0d7e92 ""
-  "/Users/user/Documents/Professional/Thesis/stanford-thesis-example/chapters/control/control.tex" 1638240103 1245 d47860ecf8f785d3d025558113969b2e ""
+["pdflatex"] 1638319006 "/Users/user/Documents/Professional/Thesis/stanford-thesis-example/chapters/control/control.tex" "/Users/user/Documents/Professional/Thesis/stanford-thesis-example/chapters/control/control.pdf" "control" 1638319006
+  "/Users/user/Documents/Professional/Thesis/stanford-thesis-example/chapters/control/control.aux" 1638318889 2261 3c9ab2283a604389a8e7f3a40518b247 ""
+  "/Users/user/Documents/Professional/Thesis/stanford-thesis-example/chapters/control/control.tex" 1638319005 5982 4bdfdbcb6b880387b02eee7c736b0980 ""
+  "/usr/local/texlive/2016/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
+  "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2016/texmf-dist/web2c/texmf.cnf" 1463093894 31953 b9489e6e586f798610c60aec1f5ec548 ""
   "/usr/local/texlive/2016/texmf-var/web2c/pdftex/pdflatex.fmt" 1463979169 3873397 413fbfbbedb8e719ddc392043a7add02 ""
   "/usr/local/texlive/2016/texmf.cnf" 1463979140 577 2938757e76f31531e65cc647e3507693 ""
-  "control.tex" 1638240103 1245 d47860ecf8f785d3d025558113969b2e ""
+  "control.tex" 1638319005 5982 4bdfdbcb6b880387b02eee7c736b0980 ""
   (generated)
   "/Users/user/Documents/Professional/Thesis/stanford-thesis-example/chapters/control/control.pdf"
-  "control.log"
   "/Users/user/Documents/Professional/Thesis/stanford-thesis-example/chapters/control/control.log"
+  "control.log"

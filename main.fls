@@ -306,9 +306,9 @@ INPUT /Users/user/Documents/Professional/Thesis/stanford-thesis-example/figs/int
 INPUT /Users/user/Documents/Professional/Thesis/stanford-thesis-example/figs/interp/fieldols.png
 INPUT /Users/user/Documents/Professional/Thesis/stanford-thesis-example/figs/interp/fieldols.png
 INPUT /Users/user/Documents/Professional/Thesis/stanford-thesis-example/figs/interp/fieldols.png
-INPUT /Users/user/Documents/Professional/Thesis/stanford-thesis-example/figs/interp/dist_defense.png
-INPUT /Users/user/Documents/Professional/Thesis/stanford-thesis-example/figs/interp/dist_defense.png
-INPUT /Users/user/Documents/Professional/Thesis/stanford-thesis-example/figs/interp/dist_defense.png
+INPUT /Users/user/Documents/Professional/Thesis/stanford-thesis-example/figs/interp/dist_defense2.png
+INPUT /Users/user/Documents/Professional/Thesis/stanford-thesis-example/figs/interp/dist_defense2.png
+INPUT /Users/user/Documents/Professional/Thesis/stanford-thesis-example/figs/interp/dist_defense2.png
 INPUT /Users/user/Documents/Professional/Thesis/stanford-thesis-example/figs/interp/results.png
 INPUT /Users/user/Documents/Professional/Thesis/stanford-thesis-example/figs/interp/results.png
 INPUT /Users/user/Documents/Professional/Thesis/stanford-thesis-example/figs/interp/results.png
@@ -330,6 +330,8 @@ INPUT /Users/user/Documents/Professional/Thesis/stanford-thesis-example/figs/con
 OUTPUT /Users/user/Documents/Professional/Thesis/stanford-thesis-example/chapters/conclusion/conclusion.aux
 INPUT /Users/user/Documents/Professional/Thesis/stanford-thesis-example/chapters/conclusion/conclusion.tex
 INPUT /Users/user/Documents/Professional/Thesis/stanford-thesis-example/chapters/conclusion/conclusion.tex
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
 INPUT /Users/user/Documents/Professional/Thesis/stanford-thesis-example/main.bbl
 INPUT /Users/user/Documents/Professional/Thesis/stanford-thesis-example/main.bbl
 INPUT /Users/user/Documents/Professional/Thesis/stanford-thesis-example/main.aux
